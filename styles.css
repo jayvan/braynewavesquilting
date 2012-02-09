@@ -1,0 +1,127 @@
+/*Division Formatting*/
+
+body
+{
+background:#80C9FF;
+}
+
+div#wrap
+{
+width:900px;
+background:#C4EEF2;
+margin-left:auto;
+margin-right:auto;
+border-width:thick;
+border-style:solid;
+border-color:#6096BF;
+}
+
+div#navbar
+{
+background:#80C9FF;
+text-align:center;
+border-top: thin solid #6096BF;
+border-bottom: thin solid #6096BF;
+}
+
+div#main 
+{
+width:90%;
+margin-left:auto;
+margin-right:auto;
+}
+
+img
+{
+border-style:none;
+vertical-align: top;
+}
+div#footer
+{
+border-top-width:medium;
+border-top-style:dotted;
+border-top-color:#2A71B4;
+clear:both;
+}
+div#footer p
+{
+font-variant:small-caps;
+font-size:12px;
+text-align:center;	
+}
+
+/*Text Formatting*/
+div#main p
+{
+padding-left:5px;
+text-indent:1.5em;
+}
+
+div#sidebar p
+{
+text-align:center;
+}
+
+div.group
+{
+background:#80C9FF;
+text-align:left;
+border: thin solid #2A71B4;
+padding: 5px;
+margin-left: auto;
+margin-right: 50px;
+}
+
+.strong
+{
+font-weight: bold;
+}
+
+.emphasis
+{
+font-style: italic;	
+}
+
+.centered
+{
+text-align:center;	
+}
+
+h1
+{color: #2A71B4;
+font-family: "Garamond Premr Pro";
+letter-spacing:0.2em;
+text-align:center;
+}
+
+h2
+{
+padding-top:5px;
+color: #2A71B4;
+font-family: "Arial";
+text-align:left;
+font-size:17px;
+}
+
+div#sidebar h2
+{
+text-align:center;	
+}
+
+p
+{
+color:black;
+font-family: "Arial";
+}
+
+/*Pseudo Classes*/
+
+a:link {color:blue;}
+
+a:visited {color:navy;}
+
+a:focus {color:purple;}
+
+a:hover {color:purple;}
+
+a:active {color:green;}
